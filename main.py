@@ -31,7 +31,7 @@ from pyrogram import Client, filters
 from pyrogram.types import User, Message
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.raw.functions.channels import GetParticipants
-from config 
+import config 
 from datetime import datetime
 import time
 from concurrent.futures import ThreadPoolExecutor
