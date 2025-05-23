@@ -31,14 +31,13 @@ from pyrogram import Client, filters
 from pyrogram.types import User, Message
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.raw.functions.channels import GetParticipants
-import config 
+from config import api_id, api_hash, bot_token
 from datetime import datetime
 import time
 from concurrent.futures import ThreadPoolExecutor
 THREADPOOL = ThreadPoolExecutor(max_workers=1000)
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 # Bot credentials from environment variables (Render compatible)
 API_ID = int(os.environ.get("API_ID", 21567814))
