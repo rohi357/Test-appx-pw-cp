@@ -59,11 +59,33 @@ def run_flask():
     
 
 image_list = [
-"https://graph.org/file/8b1f4146a8d6b43e5b2bc-be490579da043504d5.jpg",
-"https://graph.org/file/b75dab2b3f7eaff612391-282aa53538fd3198d4.jpg",
-"https://graph.org/file/38de0b45dd9144e524a33-0205892dd05593774b.jpg",
-"https://graph.org/file/be39f0eebb9b66d7d6bc9-59af2f46a4a8c510b7.jpg",
-"https://graph.org/file/8b7e3d10e362a2850ba0a-f7c7c46e9f4f50b10b.jpg",
+"https://envs.sh/Kzb.jpg",
+    "https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg",
+    "https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
+    "https://i.ibb.co/F4fYbhYx/STRANGER-BOY.jpg",
+    "https://i.ibb.co/4nhpgbmt/STRANGER-BOY.jpg",
+    "https://i.ibb.co/pCtQngf/STRANGER-BOY.jpg",
+    "https://envs.sh/vbp.jpg",
+    "https://i.ibb.co/HffWwnB7/STRANGER-BOY.jpg",
+    "https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg",
+"https://envs.sh/KzP.jpg",
+    "https://i.ibb.co/bg9w4H3c/photo-2025-04-23-09-50-06-7496450663061127228.jpg",
+    "https://i.ibb.co/zHDXdtCk/photo-2025-04-14-13-58-31-7496450675946029068.jpg",
+    "https://i.ibb.co/200yz6vQ/photo-2025-04-14-13-58-28-7496450658766159936.jpg",
+    "https://i.ibb.co/200yz6vQ/photo-2025-04-14-13-58-28-7496450658766159936.jpg",
+    "https://envs.sh/49r.mp4",
+    "https://i.ibb.co/VY5Bb44T/photo-2025-04-23-09-49-54-7496450701715832900.jpg",
+    "https://i.ibb.co/VWGcwQK5/photo-2025-04-14-13-58-24-7496450688830931016.jpg",
+    "https://envs.sh/49s.mp4",
+    "https://envs.sh/499.mp4",
+    "https://i.ibb.co/DgRpQhw6/photo-2025-04-30-11-42-22-7499070258104238100.jpg",
+    "https://envs.sh/oEk.jpg",
+    "https://envs.sh/HWr.jpg",
+    "https://i.ibb.co/0p3pmkwn/Angel.jpg",
+    "https://i.ibb.co/KjNBPrtk/STRANGER-BOY.jpg",
+"https://envs.sh/Kz0.jpg",
+"https://i.ibb.co/dwc7VnGQ/photo-2025-04-17-12-32-29-7494259035739258904.jpg",
+"https://i.ibb.co/sd1BMMJR/photo-2025-04-14-13-58-25-7496450706010800144.jpg",
 ]
 print(4321)
 
@@ -74,13 +96,13 @@ async def start(bot, message):
 
   keyboard = [
     [
-      InlineKeyboardButton("🚀 Physics Wallah without Purchase 🚀", callback_data="pwwp")
+      InlineKeyboardButton("🌐 PW STRANGER BOYS 🌐", callback_data="pwwp")
     ],
     [
-      InlineKeyboardButton("📘 Classplus without Purchase 📘", callback_data="cpwp")
+      InlineKeyboardButton("💠 Classplus 🔻 ORG CODE 🔺️ SAMAY YATRI 💠", callback_data="cpwp")
     ],
     [
-      InlineKeyboardButton("📒 Appx Without Purchase 📒", callback_data="appxwp")
+      InlineKeyboardButton("✨️ Appx API KEY 🔑 🎉 THE BOYS 🎀", callback_data="appxwp")
     ]
   ]
 
@@ -88,7 +110,7 @@ async def start(bot, message):
 
   await message.reply_photo(
     photo=random_image_url,
-    caption="**PLEASE👇PRESS👇HERE**",
+    caption="**⚠️ 💠STRANGER BOYS COMES TRUE💠 ⚠️**",
     quote=True,
     reply_markup=reply_markup
   )
